@@ -1,0 +1,61 @@
+/* Add a gradient background to the header */
+.header {
+    background: linear-gradient(135deg, black);
+}
+
+/* Style the profile picture with a border */
+.profile-pic {
+    border: 5px solid black;
+}
+
+/* Style the headings */
+h1, h2 {
+    color: white;
+    font-size: 40px;
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+/* Style the achievements and interests sections */
+.achievements, .interests {
+    margin: 20px;
+    padding: 10px;
+    background-color: #f5f5f5;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Style the list items with custom bullet points */
+ul {
+    list-style: none;
+    padding-left: 0;
+}
+ul li::before {
+    content: "•";
+    color: #007bff;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+}
+
+/* Style the About Me section with a subtle background */
+.about {
+    margin: 20px;
+    padding: 20px;
+    background-color: #f5f5f5;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Add italic style to the "Progress is a way of life" text in the About Me section */
+.about em {
+    font-style: italic;
+}
+
+/* Style the contact information */
+.contact {
+    margin: 20px;
+    padding: 10px;
+    background-color: #f5f5f5;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
